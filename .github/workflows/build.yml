@@ -15,7 +15,7 @@ jobs:
       - name: Checkout EasyProxy
         uses: actions/checkout@v4
         with:
-          repository: nzo66/EasyProxy
+          repository: stremio-manager/EasyProxy
 
       - name: Set lowercase repo name
         id: repo
